@@ -1,35 +1,65 @@
+
 html, body {
-  margin: 0px;
-  width: 100%;
-  height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	background-color: #DDD;
 }
-#header {
-  width: 100%;
-  border-bottom: 1px solid black;
+#site_name a{
+	margin-left: 14px;
+	text-decoration: none;
+	color: #000;
 }
-#siteName:hover {
-  cursor: pointer;
-  color: #000;
+#site_name a:hover {
+	padding: 2px;
+	cursor: pointer;
+	background-color: #000;
+	color:#fff;
+	box-shadow: 5px 5px #555;
 }
-#siteName {
-  color: #000;
+#tag_line p{
+	border-bottom: 2px solid black;
+	width: 264px;
 }
-#siteName a, #siteName a:visited {
-  text-decoration: none;
-  color: #000;
+#torso {
+	margin-top: 28px;
+	width: 100%;
+	height: 100%;
 }
-#mainArea {
-  width: 100%;
-  height: 100%;
+#content{
+	overflow: auto;
+	padding: 10px;
+	margin: 0 auto;
+	width: 75%;
 }
-#contentArea {
-  width: 100%;
+.content_item {
+	background-color: #BBB;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 6px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 26px;
+	width: 300px;
 }
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 24px;
-  border-top: 1px solid black;
-  text-align: center;
+.content_item img{
+	width: 32px;
+	height: 32px;
+	margin-bottom: 0;
+}
+.content_item h1{
+	display: inline-block;
+	margin-bottom: 0;
+}
+.content_item a{
+	text-decoration: none;
+}
+.content_item a:visited{
+	color: #777;
+}
+.content_item p{
+	margin: 0;
+	padding: 0;
 }
